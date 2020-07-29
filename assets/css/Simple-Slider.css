@@ -23,6 +23,9 @@
   .simple-slider .swiper-slide {
     height: 360px;
   }
+  #contact {
+    padding-bottom: 50px;
+  }
 }
 
 .list-inline-item:not(:last-child) {
