@@ -21,11 +21,27 @@
 
 @media (max-width: 767px) {
   .simple-slider .swiper-slide {
-    height: 360px;
+    height: 100%;
   }
   #contact {
     padding-bottom: 50px;
   }
+}
+
+.swiper-pagination-bullet {
+  background: white;
+}
+
+.swiper-pagination-bullet-active {
+  background: #42dca3;
+}
+
+.swiper-button-prev {
+  background-image: url("../img/baixados.svg");
+}
+
+.swiper-button-next {
+  background-image: url("../img/baixados1.svg");
 }
 
 .list-inline-item:not(:last-child) {
